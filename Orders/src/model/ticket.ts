@@ -1,0 +1,18 @@
+import mongoose from 'mongoose'
+
+interface TicketAttr
+{
+
+}
+
+interface TicketDoc extends mongoose.Document
+{
+    
+}
+
+
+interface TicketModel extends mongoose.Model<TicketDoc>
+{
+
+}
+    
